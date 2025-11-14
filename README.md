@@ -132,3 +132,4 @@ Double-click the desired script or run it from `cmd.exe`. Stop the servers with 
 
 See `docs/design-reflection.md` for an in-depth discussion of design decisions and improvement areas.
 
+"# projectOneAIAssisted" 
