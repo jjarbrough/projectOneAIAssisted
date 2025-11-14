@@ -36,6 +36,42 @@ TaskTrack/
     └── design-reflection.md  # Architecture notes and improvement ideas
 ```
 
+## Quick Start
+
+### Windows
+
+Double-click `start_all.bat` in the project root, or run it from Command Prompt:
+
+```cmd
+start_all.bat
+```
+
+This launches both servers in separate windows. Then open `http://127.0.0.1:5173` in your browser.
+
+You can also run them separately:
+- `start_backend.bat` — FastAPI server only
+- `start_frontend.bat` — Static file server only
+
+### macOS / Linux
+
+Make the scripts executable (first time only):
+
+```bash
+chmod +x start_all.sh start_backend.sh start_frontend.sh
+```
+
+Then run:
+
+```bash
+./start_all.sh
+```
+
+This opens both servers in separate Terminal windows. Then open `http://127.0.0.1:5173` in your browser.
+
+You can also run them separately:
+- `./start_backend.sh` — FastAPI server only
+- `./start_frontend.sh` — Static file server only
+
 ## Backend Setup
 
 > Requires Python 3.11+ (the project was developed with Python 3.13 on Windows).
